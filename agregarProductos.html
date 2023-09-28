@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar productos</title>
+    <!--Estilos css-->
+
+<link rel="stylesheet" href="../css/addProductos.css">
+<link rel="stylesheet" href="../css/bases.css">
+<link rel="stylesheet" href="../css/footer.css">
+
+<!--LINK ICONOS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!--LINK FONT-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav class="topnav">
+        <a href="index.html" class="active">Travel Line</a>
+        
+        <div class="input-box">
+            <a href="menuPaquetes.html" class="acti">Menú administrador</a>
+        </div>
+    </nav>
+    <br>
+
+
+    <section class="agregar">
+        <h2>Agregar nuevo producto</h2>
+    <form action="" id="formu" data-form>
+        <div class="form-group">
+            <label for="img">Imagen</label>
+            <input type="url" id="img" name="img" placeholder="freepik.es/foto-gratis/foto-fascinante-lago-lunersee-vandans-austria" data-url>
+        </div>
+        <div class="form-group">
+            <label for="name">Paquete</label>
+            <input type="text" id="text" name="text" data-name>
+        </div>
+        <div class="form-group">
+            <label for="precio">Precio</label>
+            <input type="text" id="text" name="text" data-precio>
+        </div>
+        
+        <button type="submit">Agregar paquete</button>
+    </form>
+    </section>
+
+    <footer>
+        <div class="contenido-pie">
+            <div>
+                <p>Preguntas frecuentes</p>
+                <p>Prensa</p>
+                <p>Preferencias de cookies</p>
+            </div>
+            <div> <p>Centro de ayuda</p>
+                <p>Relaciones con inversionistas</p>
+                <p>Información corporativa</p>
+                <p>Avisos legales</p>
+            </div>
+            <div>
+                <p>Cuenta</p>
+                <p>Empleo</p>
+                <p>Privacidad</p>
+            </div>
+            
+        </div>
+        
+        
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+        <p>&copy;/LE/ Diseño web - Todos los derechos reservados - 2023</p>
+    </footer>
+    <script src="./js/crear-producto-controler.js"></script>
+</body>
+</html>

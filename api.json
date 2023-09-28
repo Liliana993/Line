@@ -1,0 +1,88 @@
+{
+    "paquetes": [
+    {
+        "precio": 100.000,
+        "id": 1,
+        "title": "Brasil",
+        "imagenURL": "img\brazil rio-4809011_1280.jpg"
+    },
+    {
+        "precio": 195.000,
+        "id": 2,
+        "title": "Australia",
+        "imagenURL": "img/sydney-opera-house-363244_1280.jpg"
+    },
+    {
+        "precio": 189.000,
+        "id": 3,
+        "title": "Polynesia",
+        "imagenURL": "img/polynesia-3021072_1280.jpg"
+    },
+    {
+        "precio": 135.000,
+        "id": 4,
+        "title": "México",
+        "imagenURL": "img/mexico-2379694_1280.jpg"
+    },
+    {
+        "precio": 100.000,
+        "id": 5,
+        "title": "Italia",
+        "imagenURL": "img/italia.jpg"
+    },
+    {
+        "precio": 120.000,
+        "id": 6,
+        "title": "China",
+        "imagenURL": "img/great-wall-of-china-3022907_1280.jpg"
+    },
+    {
+        "precio": 130.000,
+        "id": 7,
+        "title": "Estados Unidos",
+        "imagenURL": "img/gran cañon-1908283_1280.jpg"
+    },
+    {
+        "precio": 140.000,
+        "id": 8,
+        "title": "Patagonia",
+        "imagenURL": "img/glaciar-4810395_1280.jpg"
+    },
+    {
+        "precio": 150.000,
+        "id": 9,
+        "title": "Argentina",
+        "imagenURL": "img/foz-do-iguacu-221274_1280.jpg"
+    },
+    {
+        "precio": 160.000,
+        "id": 10,
+        "title": "Francia",
+        "imagenURL": "img/eiffel-tower-3349075_1280.jpg"
+    },
+    {
+        "precio": 180.000,
+        "id": 11,
+        "title": "Colombia",
+        "imagenURL": "img/colombia-2722841_1280.jpg"
+    },
+    {
+        "precio": 170.000,
+        "id": 12,
+        "title": "Egipto",
+        "imagenURL": "img/cairo-1980350_1280.jpg"
+    },
+    {
+        "precio": 190.000,
+        "id": 13,
+        "title": "Grecia",
+        "imagenURL": "img/beach-418742_1280.jpg"
+    },
+    {
+        "precio": 150.000,
+        "id": 14,
+        "title": "Suiza",
+        "imagenURL": "img/alpes-2700403_1280.jpg"
+    }
+    ]
+}

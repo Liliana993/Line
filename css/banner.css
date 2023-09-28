@@ -1,0 +1,44 @@
+.banner{
+    display: flex;
+    position: relative;
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    width: 100%;
+}
+
+.banner video{
+    width: 100%;
+}
+
+.banner p{
+    color: #fdfdfd;
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 5px 5px rgb(0,0,0,0.75);
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    border-bottom: 2px;
+}
+
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    align-items: center;
+    border: 1px solid rgb(136, 75, 136);
+    background: rgb(119, 25, 119);
+    border-radius: 10px;
+    font-size: 1.25rem;
+    padding: 5px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transform: translate(-50%, -50%);
+    transition: all 400ms ease;
+}
+
+.btn:hover{
+    text-decoration: underline #92187e;;
+}
