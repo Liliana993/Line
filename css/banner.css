@@ -43,3 +43,7 @@
 .btn:hover{
     text-decoration: underline #92187e;;
 }
+
+@media screen(min-widht: 300px){
+    .btn{ display: none;}
+}
